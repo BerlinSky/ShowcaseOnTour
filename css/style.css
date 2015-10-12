@@ -736,10 +736,12 @@
 	.slides-navigation a.prev {
 		left: 2%;
 		background-position:left;
+		cursor: url('/images/ln-arrow-left.png'), default;
 	}
 	.slides-navigation a.next {
 		right: 2%;
 		background-position:right;
+		cursor: url('/images/ln-arrow-right.png'), default;
 	}
 
 	#home:hover .slides-navigation a{
