@@ -1,0 +1,14 @@
+{
+  "name": "FlexSlider",
+  "homepage": "https://github.com/mbmufffin/FlexSlider",
+  "_release": "e657d90988",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e657d90988cc537c54d02dae1901f4a7be90babb"
+  },
+  "_source": "https://github.com/mbmufffin/FlexSlider.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/mbmufffin/FlexSlider.git",
+  "_direct": true
+}
