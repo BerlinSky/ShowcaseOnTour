@@ -1,0 +1,111 @@
+/* Theme Panel */
+
+	#theme-panel{
+		position: fixed;
+		width:180px;
+		height: auto;
+		top:150px;
+		min-height: 200px;
+		text-align:left;
+		border:1px solid rgba(100,100,100,0.55);
+		z-index: 11;
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
+		box-shadow: 0px 1px 4px rgba(0,0,0, 0.45);
+	}
+
+	.close-theme-panel{
+		right:-180px;
+	}
+
+	.open-theme-panel{
+		right:-1px;
+	}
+
+	#theme-panel .segment{
+		width:100%;
+		padding:15px 10px 15px 0;
+		border:1px solid rgba(100,100,100,0.55);
+		padding:15px 25px;
+		background:rgba(50,50,50,0.95);
+	}
+
+	#theme-panel a.panel-button{
+		position: absolute;
+		width:50px;
+		height: 50px;
+		left:-50px;
+		top:30px;
+		text-align: center;
+		font-size:18px;
+		line-height: 47px;
+		cursor: pointer;
+		border:none;
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		color:#d1d1d1;
+		background:rgba(100,100,100,0.25);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	
+	#theme-panel a.panel-button:hover{
+		color:#35cc75;
+	}	
+
+	#theme-panel h4{
+		margin:3px auto 15px;
+		padding-top:0;
+		padding-bottom:0;
+	}
+
+
+	#theme-panel .segment a.switcher{
+		width:35px;
+		height:35px;
+		display: inline-block;
+		margin-right:3px;
+		margin-top:5px;
+		border:1px solid #efefef;
+		cursor: pointer;
+	}
+	
+	.purple-bg{
+		background: #a05abd;
+	}
+
+	.navy-bg{
+		background: #314a92;
+	}
+	
+	.blue-bg{
+		background: #2f96db;
+	}
+	
+	.green-bg{
+		background: #35cc75;
+	}
+	
+	.teal-bg{
+		background: #1fcdf9;
+	}
+	
+	.burgandy-bg{
+		background: #ca2034;
+	}
+
+	.red-bg{
+		background: #e74c3c;
+	}
+	
+	.orange-bg{
+		background: #f09718;
+	}
+
+	.yellow-bg{
+		background: #fdcb03;
+	}
