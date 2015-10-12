@@ -9,13 +9,6 @@ $(window).load(function() {
 	$("#pageloader").delay(1200).fadeOut("slow");
 });
 
- /* ==============================================
-Fit Videos
-=============================================== */
-$(window).load(function(){
-	'use strict';
-     $(".fit-vids").fitVids();
- });
 
 /* ==============================================
 Drop Down Menu Fade Effect
