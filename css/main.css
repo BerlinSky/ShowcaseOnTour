@@ -138,7 +138,7 @@ b.caret{
 		z-index: 9999;
 	}
 
-	.loader-item {
+	.pagelanding-zone {
 	  position: absolute;
 	  top:47%;
 	  left:49%;
@@ -146,12 +146,12 @@ b.caret{
 	  color:#dddddd;
 	}
 	
-	.loader-item:before{
+	.pagelanding-zone:before{
   	  content: "\f013";
       font-size:3em;
     }
 
-	.loader-item h2{
+	.pagelanding-zone h2{
 		color:#ccc;
 		margin:0 auto;
 		font-size:20px;
