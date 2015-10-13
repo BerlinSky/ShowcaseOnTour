@@ -2046,32 +2046,32 @@ b.caret{
 
 /* Team */
 
-	#team{
+	#tmot-news{
 		border-bottom:none;
 	}
 
-	#team .team .team-members{
+	#tmot-news .tmot-news .tmot-news-members{
 		margin:30px auto 0;
 	}
 
-	.team-members .member{
+	.tmot-news-members .member{
 		margin:15px auto;
 		cursor: default;
 		overflow: hidden;
 	}
 
-	.team-members .member .member-inner{
+	.tmot-news-members .member .member-inner{
 		position: relative;
 	}
 
-	.team-members .member a.team-image{
+	.tmot-news-members .member a.tmot-news-image{
 		display: block;
 		width: 100%;
 		height: auto;
 		z-index: 2;
 	}
 
-	.team-members .member a.team-image img{
+	.tmot-news-members .member a.tmot-news-image img{
 		width: 100%;
 	}
 
@@ -2101,19 +2101,19 @@ b.caret{
 
 /* Team Names, Descriptions */
 
-	.team-members .member-details .member-name{
+	.tmot-news-members .member-details .member-name{
 		color: white;
 		margin-top:0;
 		padding-top:0;
 		font-size:30px;
 	}
 
-	.team-members .member-details .member-position{
+	.tmot-news-members .member-details .member-position{
 		color:#1a9bd7;
 		font-size:13px;
 	}
 
-	.team-members .member-details .member-description{
+	.tmot-news-members .member-details .member-description{
 		color:#fff;
 		font-size:13px;
 	}
@@ -2140,7 +2140,7 @@ b.caret{
 
 /* Team Rollover */
 
-	.team-members .member:hover .member-details{
+	.tmot-news-members .member:hover .member-details{
 		bottom:0;
 	}
 
