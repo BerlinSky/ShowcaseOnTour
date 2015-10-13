@@ -2050,28 +2050,28 @@ b.caret{
 		border-bottom:none;
 	}
 
-	#tmot-news .tmot-news .tmot-news-members{
+	#tmot-news .tmot-news .tmot-news-items{
 		margin:30px auto 0;
 	}
 
-	.tmot-news-members .member{
+	.tmot-news-items .member{
 		margin:15px auto;
 		cursor: default;
 		overflow: hidden;
 	}
 
-	.tmot-news-members .member .member-inner{
+	.tmot-news-items .member .member-inner{
 		position: relative;
 	}
 
-	.tmot-news-members .member a.tmot-news-image{
+	.tmot-news-items .member a.tmot-news-image{
 		display: block;
 		width: 100%;
 		height: auto;
 		z-index: 2;
 	}
 
-	.tmot-news-members .member a.tmot-news-image img{
+	.tmot-news-items .member a.tmot-news-image img{
 		width: 100%;
 	}
 
@@ -2101,19 +2101,19 @@ b.caret{
 
 /* Team Names, Descriptions */
 
-	.tmot-news-members .member-details .member-name{
+	.tmot-news-items .member-details .member-name{
 		color: white;
 		margin-top:0;
 		padding-top:0;
 		font-size:30px;
 	}
 
-	.tmot-news-members .member-details .member-position{
+	.tmot-news-items .member-details .member-position{
 		color:#1a9bd7;
 		font-size:13px;
 	}
 
-	.tmot-news-members .member-details .member-description{
+	.tmot-news-items .member-details .member-description{
 		color:#fff;
 		font-size:13px;
 	}
@@ -2140,7 +2140,7 @@ b.caret{
 
 /* Team Rollover */
 
-	.tmot-news-members .member:hover .member-details{
+	.tmot-news-items .member:hover .member-details{
 		bottom:0;
 	}
 
