@@ -96,26 +96,6 @@ Flex Slider Home Page V5
       });
  });
 
-  /* ==============================================
-Flex Slider Blog
-=============================================== */	
-	
- $(window).load(function(){
-	  'use strict';
-		
-      $('.post .flex').flexslider({
-        animation: "fade",
-		selector: ".post-slides .post-slide",
-		controlNav: false,
-		directionNav: true ,
-		slideshowSpeed: 5000,  
-		direction: "horizontal",
-        start: function(slider){
-         $('body').removeClass('loading'); 
-        }
-      });
- });
-
 
 /* ==============================================
 Home Super Slider (images)
