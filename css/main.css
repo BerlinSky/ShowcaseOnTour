@@ -2054,28 +2054,28 @@ b.caret{
 		margin:30px auto 0;
 	}
 
-	.tmot-news-items .member{
+	.tmot-news-items .tmot-news-piece{
 		margin:15px auto;
 		cursor: default;
 		overflow: hidden;
 	}
 
-	.tmot-news-items .member .member-inner{
+	.tmot-news-items .tmot-news-piece .tmot-news-inner{
 		position: relative;
 	}
 
-	.tmot-news-items .member a.tmot-news-image{
+	.tmot-news-items .tmot-news-piece a.tmot-news-image{
 		display: block;
 		width: 100%;
 		height: auto;
 		z-index: 2;
 	}
 
-	.tmot-news-items .member a.tmot-news-image img{
+	.tmot-news-items .tmot-news-piece a.tmot-news-image img{
 		width: 100%;
 	}
 
-	.inner-details .member-details{
+	.inner-details .tmot-news-piece-details{
 		position: absolute;
 		width: 100%;
 		left:0;
@@ -2091,7 +2091,7 @@ b.caret{
 		transition: all 0.4s;
 	}
 
-	.inner-details .member-details .member-details-inner{
+	.inner-details .tmot-news-piece-details .tmot-news-piece-details-inner{
 		position: relative;
 		top:50%;
 		-webkit-transform: translateY(-50%);
@@ -2101,30 +2101,30 @@ b.caret{
 
 /* Team Names, Descriptions */
 
-	.tmot-news-items .member-details .member-name{
+	.tmot-news-items .tmot-news-piece-details .tmot-news-piece-name{
 		color: white;
 		margin-top:0;
 		padding-top:0;
 		font-size:30px;
 	}
 
-	.tmot-news-items .member-details .member-position{
+	.tmot-news-items .tmot-news-piece-details .tmot-news-piece-position{
 		color:#1a9bd7;
 		font-size:13px;
 	}
 
-	.tmot-news-items .member-details .member-description{
+	.tmot-news-items .tmot-news-piece-details .tmot-news-piece-description{
 		color:#fff;
 		font-size:13px;
 	}
 
 /* Team Socials */
 
-	.member .member-details .member-details-inner .socials{
+	.tmot-news-piece .tmot-news-piece-details .tmot-news-piece-details-inner .socials{
 		margin:10px auto 0;
 	}
 
-	.member .member-details .member-details-inner .socials a{
+	.tmot-news-piece .tmot-news-piece-details .tmot-news-piece-details-inner .socials a{
 		display: inline-block;
 		color:white;
 		font-size:1.2em;
@@ -2140,11 +2140,11 @@ b.caret{
 
 /* Team Rollover */
 
-	.tmot-news-items .member:hover .member-details{
+	.tmot-news-items .tmot-news-piece:hover .tmot-news-piece-details{
 		bottom:0;
 	}
 
-	.member .member-details .member-details-inner .socials a:hover{
+	.tmot-news-piece .tmot-news-piece-details .tmot-news-piece-details-inner .socials a:hover{
 		background:rgba(0,0,0,1);
 		border-radius:50%;
 	}
