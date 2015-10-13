@@ -984,22 +984,22 @@ b.caret{
 
 /* About */
 	
-	#about .inner .boxes{
+	#bio .inner .boxes{
 		overflow: hidden;
 	}
 
-	#about .inner .boxes:after{
+	#bio .inner .boxes:after{
 		clear: both;
 	}
 
-	.about-box{
+	.bio-box{
 		text-align: center;
 		margin:0px auto 0;
 		cursor: pointer;
 	}
 /* About Icon Styles */
 
-	.about-icon{
+	.bio-icon{
 		display:block;
 		width:120px;
 		height: 120px;
@@ -1010,7 +1010,7 @@ b.caret{
 		text-align: center;
 	}
 
-	.about-icon:before{
+	.bio-icon:before{
 		width:120px;
 		height: 120px;
 		content:'';
@@ -1026,7 +1026,7 @@ b.caret{
 		transition: all 0.3s;
 	}
 
-	.about-icon i{
+	.bio-icon i{
 		font-size:4em;
 		color:#fff;
 		z-index: 4;
@@ -1040,26 +1040,26 @@ b.caret{
 
 /* About Box Hover Styles */
 
-	.about-box:hover .about-icon:before{
+	.bio-box:hover .bio-icon:before{
 		background:#252525;
 	}
 
-	.about-box:hover .about-icon:after{
+	.bio-box:hover .bio-icon:after{
 		background:#252525;
 	}
 
-	.about-box:hover .about-icon i{
+	.bio-box:hover .bio-icon i{
 		color:#fff;
 	}
 
-	.about-box .about-head{
+	.bio-box .bio-head{
 		margin:25px auto 20px;
 		font-size:1.5em;
 		border-top:#ddd 1px solid;
 		padding-top:20px;
 	}
 
-	.about-box .about-text{
+	.bio-box .bio-text{
 		font-size:13px;
 	}
 
