@@ -2159,10 +2159,6 @@ b.caret{
 		display:inline;
 	}
 
-	#blog .blog .sidebar{
-		margin:60px auto;
-	}
-
 	.sidebar .sidebar-segment{
 		width:100%;
 		padding-left:15px;
@@ -2176,8 +2172,6 @@ b.caret{
 	.sidebar-header{
 		font-size:23px;
 	}
-
-/* Search */
 
 	.sidebar .sidebar-segment .search{
 		width:100%;
@@ -2211,53 +2205,4 @@ b.caret{
 	
 	.search-button:hover{
 		background:#444;
-	}
-
-/* Sidebar Categories */
-
-	.sidebar ul.sidebar-categories{
-		width:100%;
-		padding:10px 0;
-	}
-
-	.sidebar ul.sidebar-categories li{
-		width:100%;
-		margin-left:5px;
-	}
-
-	.sidebar ul.sidebar-categories li a{
-		color:#999999;
-		padding:10px 0 10px 10px;
-		display: block;
-		-webkit-transition: all 0.3s;
-		-moz-transition: all 0.3s;
-		transition: all 0.3s;
-	}
-
-	.sidebar ul.sidebar-categories li a i{
-		margin-right: 10px;
-	}
-
-	.sidebar ul.sidebar-categories li a:hover{
-		color:white;
-		background:#1a9bd7;
-	}
-
-/* Sidebar Tags */
-
-	.tags a.tag{
-		display: inline-block;
-		padding:6px;
-		background:#444;
-		color:#ccc;
-		margin:2px 2px 2px 0;
-		font-size:12px;
-		-webkit-transition: all 0.3s;
-		-moz-transition: all 0.3s;
-		transition: all 0.3s;
-	}
-
-	.tags a.tag:hover{
-		background:#1a9bd7;
-		color:white;
 	}
