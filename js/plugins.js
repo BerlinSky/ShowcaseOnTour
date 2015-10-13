@@ -355,8 +355,6 @@ Our Works / isotope Scripts
 			e.stopPropagation();
 			var url = $(this).attr('href');
 
-
-
 			loader.slideUp(function(){
 				$.get(url, function(data){
 					var portfolioContainer = $('.morenews');
