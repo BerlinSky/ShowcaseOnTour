@@ -1889,7 +1889,7 @@ b.caret{
 
 /* Expander Item Styles */	
 
-	#item-expander{
+	#tmot-box-closer{
 		position: relative;
 		padding:10px 0;
 		width:100%;
@@ -1898,7 +1898,7 @@ b.caret{
 		overflow: hidden;
 	}
 	
-	.item-expander {
+	.tmot-box-closer {
 		position:relative;
 		padding:0px 0 20px;
 		display: none;
@@ -1947,7 +1947,7 @@ b.caret{
 		height: auto;
 	}
 
-	.item-expander .cls-btn .close {
+	.tmot-box-closer .cls-btn .close {
 		position:relative;
 		display: inline-block;
 		color:#eee;

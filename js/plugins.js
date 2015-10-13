@@ -345,10 +345,10 @@ Our Works / isotope Scripts
 
 		  
 	      //expander
-		  var loader = $('.item-expander');
+		  var loader = $('.tmot-box-closer');
 		if(typeof loader.html() == 'undefined'){
-			$('<div class="item-expander"><div id="item-expander" class="container clearfix relative"><p class="cls-btn"><a class="close">X</a></p><div/></div></div>').css({opacity:0}).hide().insertAfter('.morenews');
-			loader = $('.item-expander');
+			$('<div class=".tmot-box-closer"><div id="tmot-box-closer" class="container clearfix relative"><p class="cls-btn"><a class="close">X</a></p><div/></div></div>').css({opacity:0}).hide().insertAfter('.morenews');
+			loader = $('.tmot-box-closer');
 		}
 		$('.expander').on('click', function(e){
 			e.preventDefault();
@@ -363,7 +363,7 @@ Our Works / isotope Scripts
 					var topPosition = portfolioContainer.offset().top;
 					var bottomPosition = topPosition + portfolioContainer.height();
 					$('html,body').delay(600).animate({ scrollTop: bottomPosition - -10}, 800);
-					var container = $('#item-expander>div', loader);
+					var container = $('#tmot-box-closer>div', loader);
 					
 					container.html(data);
 					$('.project').flexslider({
@@ -385,7 +385,7 @@ Our Works / isotope Scripts
 		
 		$('.close', loader).on('click', function(){
 			loader.delay(300).slideUp(function(){
-				var container = $('#item-expander>div', loader);
+				var container = $('#tmot-box-closer>div', loader);
 				container.html('');
 				$(this).css({opacity:0});
 				
