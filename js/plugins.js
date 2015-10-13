@@ -6,7 +6,7 @@ Page Loader
 $(window).load(function() {
 	'use strict';
 	$(".loader-item").delay(700).fadeOut();
-	$("#pageloader").delay(1200).fadeOut("slow");
+	$("#pagelanding").delay(1200).fadeOut("slow");
 });
 
 
