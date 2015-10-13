@@ -302,7 +302,7 @@ Our Works / isotope Scripts
        $(window).load(function() {
        	'use strict';
 	      
-	      var $container = $('.portfolio-items');
+	      var $container = $('.morenews-items');
 
 			$container.isotope({
 				resizable: false, 
@@ -347,7 +347,7 @@ Our Works / isotope Scripts
 	      //expander
 		  var loader = $('.item-expander');
 		if(typeof loader.html() == 'undefined'){
-			$('<div class="item-expander"><div id="item-expander" class="container clearfix relative"><p class="cls-btn"><a class="close">X</a></p><div/></div></div>').css({opacity:0}).hide().insertAfter('.portfolio');
+			$('<div class="item-expander"><div id="item-expander" class="container clearfix relative"><p class="cls-btn"><a class="close">X</a></p><div/></div></div>').css({opacity:0}).hide().insertAfter('.morenews');
 			loader = $('.item-expander');
 		}
 		$('.expander').on('click', function(e){
@@ -359,7 +359,7 @@ Our Works / isotope Scripts
 
 			loader.slideUp(function(){
 				$.get(url, function(data){
-					var portfolioContainer = $('.portfolio');
+					var portfolioContainer = $('.morenews');
 					var topPosition = portfolioContainer.offset().top;
 					var bottomPosition = topPosition + portfolioContainer.height();
 					$('html,body').delay(600).animate({ scrollTop: bottomPosition - -10}, 800);
@@ -390,7 +390,7 @@ Our Works / isotope Scripts
 				$(this).css({opacity:0});
 				
 			});
-			var portfolioContainer = $('.portfolio');
+			var portfolioContainer = $('.morenews');
 				var topPosition = portfolioContainer.offset().top;
 				$('html,body').delay(0).animate({ scrollTop: topPosition - 70}, 500);
 		});
