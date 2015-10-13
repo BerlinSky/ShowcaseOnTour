@@ -143,8 +143,6 @@ $('[data-toggle="tooltip"]').tooltip();
 /* ==============================================
 Navigation Scroll Effect
 =============================================== */
-
-
 $(document).ready(function () {
 	'use strict';
 
@@ -172,17 +170,17 @@ Flex Slider Testimonials
  $(window).load(function(){
 	  'use strict';
 		
-      $('.inner').flexslider({
-        animation: "fade",
-		selector: ".t-slides .tmot-memo-box",
-		controlNav: false,
-		directionNav: true ,
-		slideshowSpeed: 7000,  
-		direction: "horizontal",
-        start: function(slider){
-          $('body').removeClass('loading'); 
-        }
-      });
+    $('.inner').flexslider({
+      animation: "fade",
+			selector: ".t-slides .tmot-memo-box",
+			controlNav: false,
+			directionNav: true ,
+			slideshowSpeed: 7000,  
+			direction: "horizontal",
+      start: function(slider){
+        $('body').removeClass('loading'); 
+      }
+    });
  });
 
 
@@ -201,7 +199,6 @@ Pretty Photo
 /* ==============================================
 Parallax Calling
 =============================================== */
-
 
 ( function ( $ ) {
 'use strict';
@@ -265,18 +262,13 @@ Slap Text for Typography
         });
     };
     
-    // Called one second after the onload event for the demo (as I'm hacking the
-    // fontface load event a bit here)
-
-    // Please do not do this in a production environment - you should really use
-    // google WebFont loader events (or something similar) for better control
+    // Need to consider google WebFont loader events 
     $(window).load(function() {
-        // So, to recap... don't actually do this, it's nasty!
         setTimeout(slabTextHeadlines, 1000);
     });
 
  /* ==============================================
-Our Works / isotope Scripts
+isotope Scripts
 ===============================================	*/
 
        $(window).load(function() {
@@ -290,8 +282,6 @@ Our Works / isotope Scripts
 				itemSelector : '.tmot-bio-item'
 			});
 
-
-	      
 	      var $optionSets = $('#options .option-set'),
 	          $optionLinks = $optionSets.find('a');
 
@@ -324,7 +314,6 @@ Our Works / isotope Scripts
 	      });
 
 		  
-	      //expander
 		  var loader = $('.tmot-box-closer');
 		if(typeof loader.html() == 'undefined'){
 			$('<div class=".tmot-box-closer"><div id="tmot-box-closer" class="container clearfix relative"><p class="cls-btn"><a class="close">X</a></p><div/></div></div>').css({opacity:0}).hide().insertAfter('.morenews');
@@ -372,7 +361,6 @@ Our Works / isotope Scripts
 				var topPosition = portfolioContainer.offset().top;
 				$('html,body').delay(0).animate({ scrollTop: topPosition - 70}, 500);
 		});
-
 });
 
 
@@ -383,22 +371,22 @@ Animated Items
 	
 	'use strict';
 
-    	$('.animated').appear(function() {
-	        var elem = $(this);
-	        var animation = elem.data('animation');
-	        if ( !elem.hasClass('visible') ) {
-	        	var animationDelay = elem.data('animation-delay');
-	            if ( animationDelay ) {
+	$('.animated').appear(function() {
+      var elem = $(this);
+      var animation = elem.data('animation');
+      if ( !elem.hasClass('visible') ) {
+      	var animationDelay = elem.data('animation-delay');
+          if ( animationDelay ) {
 
-	                setTimeout(function(){
-	                    elem.addClass( animation + " visible" );
-	                }, animationDelay);
+              setTimeout(function(){
+                  elem.addClass( animation + " visible" );
+              }, animationDelay);
 
-	            } else {
-	                elem.addClass( animation + " visible" );
-	            }
-	        }
-	    });
+          } else {
+              elem.addClass( animation + " visible" );
+          }
+      }
+  });
 });
 
 
