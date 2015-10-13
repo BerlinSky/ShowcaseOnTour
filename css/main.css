@@ -1698,13 +1698,13 @@ b.caret{
 
 /* Portfolio Works */
 
-	.morenews-items .work{
+	.morenews-items .tmot-bio-item{
 		height: auto;
 		position: relative;
 		padding:3px;
 	}
 
-	.morenews-items .work .work-inner{
+	.morenews-items .tmot-bio-item .tmot-bio-item-inner{
 		width:100%;
 		height:100%;
 		position: relative;
@@ -1715,7 +1715,7 @@ b.caret{
 
 /* Portfolio Images */
 
-	.work-image{
+	.tmot-bio-item-image{
 		width:100%;
 		position: relative;
 		height: auto;
@@ -1724,14 +1724,14 @@ b.caret{
 		background:#1a9bd7;
 	}
 
-	.work-image a{
+	.tmot-bio-item-image a{
 		display:block;
 		width: 100%;
 		height: auto;
 		overflow: hidden;
 	}
 
-	.work-image a img{
+	.tmot-bio-item-image a img{
 		width:100%;
 		height: auto;
 		cursor: pointer;
@@ -1740,7 +1740,7 @@ b.caret{
 		transition: all 0.3s;
 	}
 
-	.work-image a span.positive{
+	.tmot-bio-item-image a span.positive{
 		display: block;
 		width:43px;
 		height: 43px;
@@ -1760,7 +1760,7 @@ b.caret{
 		transition: all 0.3s;
 	}
 
-	.work-image:hover a span.positive{
+	.tmot-bio-item-image:hover a span.positive{
 		-webkit-transform: scale(1);
 		-moz-transform: scale(1);
 		-ms-transform: scale(1);
@@ -1768,7 +1768,7 @@ b.caret{
 		opacity: 1;
 	}
 
-	.work-image:hover a img{
+	.tmot-bio-item-image:hover a img{
 		opacity: 0.3;
 		-webkit-transform: scale(1.1);
 		-moz-transform: scale(1.1);
@@ -1776,24 +1776,24 @@ b.caret{
 		transform: scale(1.1);
 	}
 
-/* Portfolio Work Bottom */
+/* Portfolio tmot-bio-item Bottom */
 
-	.work-bottom{
+	.tmot-bio-item-bottom{
 		padding:16px;
 		background:#333;
 	}
 
-	.work-bottom p.work-name{
+	.tmot-bio-item-bottom p.tmot-bio-item-name{
 		color:#ccc;
 		font-size:15px;
 	}
 
-	.work-bottom p.work-category{
+	.tmot-bio-item-bottom p.tmot-bio-item-category{
 		color:#888;
 		font-size:13px;
 	}
 
-	.work-bottom a{
+	.tmot-bio-item-bottom a{
 		display: block;
 		width: 40px;
 		height:40px;
@@ -1809,22 +1809,22 @@ b.caret{
 		transition: all 0.3s;
 	}
 	
-	.work-bottom a{
+	.tmot-bio-item-bottom a{
 		color:#fff;
 	}
 	
-	.work-bottom a:hover{
+	.tmot-bio-item-bottom a:hover{
 		background:black;
 	}
 
-	.work-bottom a span.arrow{
+	.tmot-bio-item-bottom a span.arrow{
 		display: block;
 		position: relative;
 		width: 12px;
 		height: 17px;
 		top:50%;
 		margin:0 auto;
-		background:url(../images/work-arrow.png) center center no-repeat;
+		background:url(../images/tmot-bio-item-arrow.png) center center no-repeat;
 		-webkit-transform: translateY(-50%);
 		-moz-transform: translateY(-50%);
 		transform: translateY(-50%);
@@ -1833,8 +1833,8 @@ b.caret{
 		transition: all 0.3s;
 	}
 
-	.work-bottom a.work-link:hover span.arrow{
-		background:url(../images/work-arrow-hover.png) center center no-repeat;
+	.tmot-bio-item-bottom a.tmot-bio-item-link:hover span.arrow{
+		background:url(../images/tmot-bio-item-arrow-hover.png) center center no-repeat;
 	}
 
 /* isotope styles */
