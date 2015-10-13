@@ -2151,12 +2151,12 @@ b.caret{
 
 
 /* Fun Facts */
-	#fun-acts .fun-acts .facts .fact{
+	#static-content-01 .static-content-01 .facts .fact{
 		height: 150px;
 		padding:0;
 	}
 	
-	#fun-acts{
+	#static-content-01{
 		background:#333 url(../images/ln-bg-dark.jpg) repeat;
 	}
 
