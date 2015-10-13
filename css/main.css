@@ -1213,7 +1213,7 @@ b.caret{
 
 /* Testimonials */	
 
-	.testimonials{
+	.static-content-02{
 		background: url(../images/ln-box-23.jpg) center center fixed;
 		padding: 70px 0 70px;
 		text-align: center;
@@ -1253,7 +1253,7 @@ b.caret{
 
 /* Testimonial Controls */	
 
-	.testimonials .flex-direction-nav{
+	.static-content-02 .flex-direction-nav{
 		width:52px;
 		height: 300px;
 		margin:-35px auto 0 auto;
@@ -1261,7 +1261,7 @@ b.caret{
 		opacity: 1;
 	}
 
-	.testimonials .flex-direction-nav li{
+	.static-content-02 .flex-direction-nav li{
 		display: block;
 		position: relative;
 		float:left;
@@ -1269,32 +1269,32 @@ b.caret{
 		height: 26px;
 	}
 
-	.testimonials .flex-direction-nav li a{
+	.static-content-02 .flex-direction-nav li a{
 		opacity: 1;
 		width:26px;
 		height: 26px;
 		background:url(../images/testimonial-controls.png);
 	}
 
-	.testimonials .flex-direction-nav a:before{
+	.static-content-02 .flex-direction-nav a:before{
 		display: none;
 	}
 
-	.testimonials .flex-direction-nav li a.flex-prev{
+	.static-content-02 .flex-direction-nav li a.flex-prev{
 		background-position: left top;
 		left:-5px;
 	}
 
-	.testimonials .flex-direction-nav li a.flex-next{
+	.static-content-02 .flex-direction-nav li a.flex-next{
 		background-position: right top;
 		right:-5px;
 	}
 
-	.testimonials .flex-direction-nav li a.flex-prev:hover{
+	.static-content-02 .flex-direction-nav li a.flex-prev:hover{
 		background-position: left bottom;
 	}
 
-	.testimonials .flex-direction-nav li a.flex-next:hover{
+	.static-content-02 .flex-direction-nav li a.flex-next:hover{
 		background-position: right bottom;
 	}
 
