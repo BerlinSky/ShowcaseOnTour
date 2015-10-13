@@ -1229,22 +1229,22 @@ b.caret{
 		background:none;
 	}
 
-	.t-slides li.monial{
+	.t-slides li.tmot-memo-box{
 		position: absolute;
 		height: auto;
 		
 	}
 
-	.t-slides li.monial:last-child:after{
+	.t-slides li.tmot-memo-box:last-child:after{
 		clear: both;
 	}
 
-	.monial h1{
+	.tmot-memo-box h1{
 		font-size:2em;
 		line-height:1.5em;
 	}
 
-	.monial p{
+	.tmot-memo-box p{
 		margin:20px 20px;
 		font-size:18px;
 		color: #666;

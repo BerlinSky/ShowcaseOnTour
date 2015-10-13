@@ -194,7 +194,7 @@ Flex Slider Testimonials
 		
       $('.inner').flexslider({
         animation: "fade",
-		selector: ".t-slides .monial",
+		selector: ".t-slides .tmot-memo-box",
 		controlNav: false,
 		directionNav: true ,
 		slideshowSpeed: 7000,  
