@@ -2128,7 +2128,6 @@ b.caret{
 		color:#1a9bd7;
 	}
 
-
 	section.page_header{
 		margin-top:0px;
 		padding:220px 0 50px 0;
@@ -2157,52 +2156,4 @@ b.caret{
 	
 	.block{
 		display:inline;
-	}
-
-	.sidebar .sidebar-segment{
-		width:100%;
-		padding-left:15px;
-		margin:25px 0;
-	}
-
-	.sidebar .sidebar-segment:first-child{
-		margin-top:0px;
-	}
-
-	.sidebar-header{
-		font-size:23px;
-	}
-
-	.sidebar .sidebar-segment .search{
-		width:100%;
-		padding:7px;
-		border:0px solid #d8d8d8;
-		outline:none;
-		position: relative;
-		color:#333;
-		font-weight: 100;
-		font-size:13px;
-		margin:0 auto;
-	}
-
-	.search-button{
-		width:15%;
-		height: 100%;
-		position: absolute;
-		right: 0;
-		top:0;
-		color:#ffffff;
-		border:none;
-		outline:none;
-		padding:0px 7px;
-		text-align:center;
-		font-size:14px;
-		background:#1a9bd7;
-		-webkit-transition: all 0.3s;
-		-moz-transition: all 0.3s;
-		transition: all 0.3s;
-	}
-	
-	.search-button:hover{
-		background:#444;
 	}
