@@ -366,7 +366,6 @@ Our Works / isotope Scripts
 					var container = $('#item-expander>div', loader);
 					
 					container.html(data);
-					 $(".fit-vids").fitVids();
 					$('.project').flexslider({
 				        animation: "fade",
 						selector: ".project-slides .slide",
@@ -375,7 +374,6 @@ Our Works / isotope Scripts
 						slideshowSpeed: 5000,  
 				      });
 					
-				//	 container.fitVids();
 					loader.slideDown(function(){
 						if(typeof keepVideoRatio == 'function'){
 							keepVideoRatio('.project-video > iframe');
