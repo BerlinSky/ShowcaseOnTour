@@ -376,7 +376,7 @@ b.caret{
 	}
 	
 	.texture-bg{
-		background:#333 url(../images/bgd/background5.jpg) repeat;
+		background:#333 url(../images/ln-bg-dark.jpg) repeat;
 	}
 
 /* Home Section */
@@ -1207,7 +1207,7 @@ b.caret{
 	}
 	
 	#features{
-		background:#333 url(../images/bgd/background5.jpg) repeat;
+		background:#333 url(../images/ln-bg-dark.jpg) repeat;
 	}
 
 
@@ -1302,7 +1302,7 @@ b.caret{
 
 	#callout{
 		padding:55px 0;
-		background:#333 url(../images/bgd/background5.jpg) repeat;
+		background:#333 url(../images/ln-bg-dark.jpg) repeat;
 	}
 	
 	#callout h1{
@@ -1635,7 +1635,7 @@ b.caret{
 	}
 
 	#portfolio{
-		background:#333 url(../images/bgd/background5.jpg) repeat;
+		background:#333 url(../images/ln-bg-dark.jpg) repeat;
 		margin:0 auto;
 		padding:70px 0 80px;
 		overflow: hidden;
@@ -2157,7 +2157,7 @@ b.caret{
 	}
 	
 	#fun-acts{
-		background:#333 url(../images/bgd/background5.jpg) repeat;
+		background:#333 url(../images/ln-bg-dark.jpg) repeat;
 	}
 
 
@@ -2498,7 +2498,7 @@ b.caret{
 /* Blog */
 
 	#the-blog{
-		background:#333 url(../images/bgd/background5.jpg) repeat;
+		background:#333 url(../images/ln-bg-dark.jpg) repeat;
 		margin:0 auto;
 		min-height: 640px;
 	}
