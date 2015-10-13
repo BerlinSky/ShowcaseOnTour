@@ -389,7 +389,7 @@ b.caret{
 	}
 
 	.home{
-		background:url(../images/1.jpg) center center fixed;
+		background:url(../images/box-03.jpg) center center fixed;
 		position: relative;
 	}
 
@@ -400,7 +400,7 @@ b.caret{
 /* Home Section Animated Version */
 
 	.home-animated{
-		background-image:url(../images/2.jpg);
+		background-image:url(../images/box-02.jpg);
 		background-size: cover;
 		background-position: 50% 50%;
 		background-attachment: fixed !important;
@@ -1331,7 +1331,7 @@ b.caret{
 /* History */
 
 	#history{
-		background:url(../images/parallax/3.jpg) top fixed;
+		background:url(../images/ln-box-21.jpg) top fixed;
 	}
 
 	.history{
@@ -2366,142 +2366,6 @@ b.caret{
 		color:white;
 	}
 
-/* Contact */
-
-	#contact{
-		background:url(../images/parallax/4.jpg) center fixed;
-		padding:10px 0 10px;
-	}
-
-	.contact-text{
-		margin:45px auto;
-	}
-
-/* Contact Form */
-
-	#contact .contact-form{
-		width:90%;
-		max-width: 830px;
-		margin: 0 auto;
-		background:#ffffff;
-		padding:25px 25px 0px 25px;
-		box-shadow: 0px 1px 4px rgba(0,0,0, 0.2);
-		-moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.2);
-		-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.2);
-	}
-
-	.mail-message-area{
-		width:100%;
-		padding:0 15px;
-	}
-
-	.mail-message{
-		width: 100%;
-		background:rgba(255,255,255, 0.8) !important;
-		-webkit-transition: all 0.7s;
-		-moz-transition: all 0.7s;
-		transition: all 0.7s;
-		margin:0 auto;
-		border-radius: 0;
-	}
-
-	.not-visible-message{
-		height:0px;
-		opacity: 0;
-	}
-
-	.visible-message{
-		height:auto;
-		opacity: 1;
-		margin:25px auto 0;
-	}
-
-/* Input Styles */
-
-	.form{
-		width: 100%;
-		padding: 15px;
-		background:#f8f8f8;
-		border:1px solid rgba(0, 0, 0, 0.075);
-		margin-bottom:25px;
-		color:#727272 !important;
-		font-size:13px;
-		-webkit-transition: all 0.4s;
-		-moz-transition: all 0.4s;
-		transition: all 0.4s;
-	}
-
-	.form:hover{
-		border:1px solid #1a9bd7;
-	}
-
-	.form:focus{
-		color: white;
-		outline: none;
-		border:1px solid #1a9bd7;
-	}
-
-	.textarea{
-		height: 200px;
-		max-height: 200px;
-		max-width: 100%;
-	}
-	
-/* Generic Button Styles */
-
-	.button{
-		padding:8px 12px;
-		background:#333333;
-		display: block;
-		width:120px;
-		margin:10px 0 0px 0;
-		border-radius:3px;
-		-webkit-transition: all 0.3s;
-		-moz-transition: all 0.3s;
-		transition: all 0.3s;
-		text-align:center;
-		font-size:0.8em;
-		box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-		-moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-		-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-	}
-
-	.button:hover{
-		background:#1a9bd7;
-		color:white;
-	}
-
-/* Send Button Styles */
-
-	.form-btn{
-		width:180px;
-		display: block;
-		height: auto;
-		padding:15px;
-		color:#fff;
-		background:#1a9bd7;
-		border:none;
-		border-radius:3px;
-		outline: none;
-		-webkit-transition: all 0.3s;
-		-moz-transition: all 0.3s;
-		transition: all 0.3s;
-		margin:auto;
-		box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-		-moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-		-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-	}
-
-	.form-btn:hover{
-		background:#111;
-		color: white;
-		border:none;
-	}
-
-	.form-btn:active{
-		opacity: 0.9;
-	}
-
 /* Place Holder Colors */
 
 	::-webkit-input-placeholder { /* WebKit browsers */
@@ -2610,7 +2474,7 @@ b.caret{
 		padding:220px 0 50px 0;
 		position: relative;
 		top:0px;
-		background:url(../images/1.jpg) bottom center fixed;
+		background:url(../images/box-03.jpg) bottom center fixed;
 	}
 
 	.page_header_inner{
