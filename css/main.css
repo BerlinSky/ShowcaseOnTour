@@ -1330,22 +1330,22 @@ b.caret{
 
 /* History */
 
-	#history{
+	#biolist{
 		background:url(../images/ln-box-21.jpg) top fixed;
 	}
 
-	.history{
+	.biolist{
 		padding-bottom:0;
 	}
 
 /* Timeline */
 
-	#history ul.timeline{
+	#biolist ul.timeline{
 		width: 100%;
 		max-width:1170px;
 		margin:50px auto 0;
 		display: block;
-		background:url(../images/history-strip.jpg) center center repeat-y;
+		background:url(../images/ln-milestone.jpg) center center repeat-y;
 		position: relative;
 		height: auto;
 		padding:0 0 150px;
@@ -1353,7 +1353,7 @@ b.caret{
 
 /* Years */
 
-	#history ul.timeline li.time{
+	#biolist ul.timeline li.time{
 		width: 75px;
 		height: 75px;
 		position: relative;
@@ -1368,7 +1368,7 @@ b.caret{
 		cursor: default;
 	}
 
-	#history ul.timeline li.today{
+	#biolist ul.timeline li.today{
 		background: #1a9bd7;
 		color:white;
 		margin:40px auto;
@@ -1376,7 +1376,7 @@ b.caret{
 
 /* Notes */
 
-	#history ul.timeline li.note{
+	#biolist ul.timeline li.note{
 		width:46%;
 		min-height: 100px;
 		float:right;
@@ -1395,7 +1395,7 @@ b.caret{
 		transition: all 0.3s;
 	}
 	
-	#history ul.timeline li.note .button{
+	#biolist ul.timeline li.note .button{
 		font-size:13px;
 		font-weight:600;
 		background-color:#1a9bd7;
@@ -1404,29 +1404,29 @@ b.caret{
 		-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
 	}
 	
-	#history ul.timeline li.note .button:hover{
+	#biolist ul.timeline li.note .button:hover{
 		background-color:#333;
 	}
 	
-	#history ul.timeline li.note .button i{
+	#biolist ul.timeline li.note .button i{
 		padding:0px 0px 0px 4px;
 		font-size:14px;
 	}
 	
-	#history ul.timeline li.note img{
+	#biolist ul.timeline li.note img{
 		width:100%;
 	}
 
-	#history ul.timeline li.note:nth-of-type(2n){
+	#biolist ul.timeline li.note:nth-of-type(2n){
 		float: left;
 		clear: left;
 	}
 
-	#history ul.timeline li.time + li.note{
+	#biolist ul.timeline li.time + li.note{
 		margin-top:-5px;
 	}
 
-	#history ul.timeline li.note:after{
+	#biolist ul.timeline li.note:after{
 		content:'';
 		position:absolute;
 		left:-8.7%;
@@ -1445,7 +1445,7 @@ b.caret{
 		transition: all 0.3s;
 	}
 
-	#history ul.timeline li.note:nth-of-type(2n):after{
+	#biolist ul.timeline li.note:nth-of-type(2n):after{
 		right:-8.6%;
 		left: auto;
 	}
@@ -1485,7 +1485,7 @@ b.caret{
 		transform: translateY(-50%);
 	}
 
-	#history ul.timeline li.note:nth-of-type(2n) .note-arrow{
+	#biolist ul.timeline li.note:nth-of-type(2n) .note-arrow{
 		left: 100%;
 		right: auto;
 		border-left: 0px solid;
@@ -1493,7 +1493,7 @@ b.caret{
 	   	border-right: none;
 	}
 
-	#history ul.timeline li.note:nth-of-type(2n) .note-arrow:after{
+	#biolist ul.timeline li.note:nth-of-type(2n) .note-arrow:after{
 		border-left: 0px solid;
 	   	border-left-color: rgba(0,0,0,0); 
 	  	border-top: 0px solid transparent;
@@ -1505,7 +1505,7 @@ b.caret{
 
 /* Start Icon */
 
-	#history ul.timeline li.start{
+	#biolist ul.timeline li.start{
 		clear: both;
 		width: 60px;
 		height: 60px;
@@ -1519,7 +1519,7 @@ b.caret{
 		border-radius:50%;
 	}
 
-	#history ul.timeline li.start a{
+	#biolist ul.timeline li.start a{
 		width: 60px;
 		height: 60px;
 		display: block;
@@ -1533,7 +1533,7 @@ b.caret{
 		transition: all 0.3s;
 	}
 	
-	#history ul.timeline li.start a:hover{
+	#biolist ul.timeline li.start a:hover{
 		background:black;
 	}	
 
@@ -1548,21 +1548,21 @@ b.caret{
 	}
 	
 
-	li.note p.history-date{
+	li.note p.biolist-date{
 		font-size:1.4em;
 		color:#888888;
 		padding:15px;
 		text-align:center;
 	}
 
-	li.note p.history-head{
+	li.note p.biolist-head{
 		font-size:1.4em;
 		margin:12px auto 3px auto;
 		color:#888888;
 		text-align:center;
 	}
 
-	li.note p.history-desc{
+	li.note p.biolist-desc{
 		font-size:13px;
 		color:#cccccc;
 		padding:10px 0;
@@ -1587,7 +1587,7 @@ b.caret{
 		position: relative;
 	}
 
-	#history ul.timeline li.note:nth-of-type(2n) .timeline-images a.timeline-image{
+	#biolist ul.timeline li.note:nth-of-type(2n) .timeline-images a.timeline-image{
 		float:right;
 		margin-left:15px;
 		margin-right:0;
@@ -1605,13 +1605,13 @@ b.caret{
 
 /* History Rollovers */
 
-	#history ul.timeline li.note:hover span.note-arrow,
-	#history ul.timeline li.note:hover span.note-arrow:after{
+	#biolist ul.timeline li.note:hover span.note-arrow,
+	#biolist ul.timeline li.note:hover span.note-arrow:after{
 		border-right-color: #1a9bd7; 
 	}
 
-	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow,
-	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow:after{
+	#biolist ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow,
+	#biolist ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow:after{
 		border-left-color: #1a9bd7; 
 	}
 

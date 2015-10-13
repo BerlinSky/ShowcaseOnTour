@@ -40,15 +40,15 @@
 	.form-btn,
 	.prices .tables .active a.price-table-img,
 	.bio-icon:before, .service-box .service-icon i, 
-	#history ul.timeline li.today, .filter-menu ul li a.selected,
+	#biolist ul.timeline li.today, .filter-menu ul li a.selected,
 	.facts .fact a.fact-icon i, .f-icon i, #blockquote,
 	.filter-menu ul li a:hover,
 	.work-image, .inner-details .member-details,
 	#site-socials .socials a.social,
-	#history ul.timeline li.start,
+	#biolist ul.timeline li.start,
 	.nav li a:focus,
 	.dark-nav .nav li a:focus,
-	#history ul.timeline li.note .button{
+	#biolist ul.timeline li.note .button{
 		background-color:#1a9bd7;
 	}
 
@@ -67,15 +67,15 @@
 /* Border Right Colors */
 
 	.colored-border-right,
-	#history ul.timeline li.note:hover span.note-arrow,
-	#history ul.timeline li.note:hover span.note-arrow:after{
+	#biolist ul.timeline li.note:hover span.note-arrow,
+	#biolist ul.timeline li.note:hover span.note-arrow:after{
 		border-right-color: #1a9bd7 ; 
 	}
 
 /* Border Left Colors */
 
 	.colored-border-left,
-	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow,
-	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow:after{
+	#biolist ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow,
+	#biolist ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow:after{
 		border-left-color: #1a9bd7 ; 
 	}
